@@ -48,10 +48,11 @@ bg=#A1BCED</panel_attributes>
 --
 -id: Long
 -title: String
--heavyness: byte
+-heavyness: Byte
 -description: String
 -resultTarget: String
 -proceedingTarget: String
+-finished: boolean
 --
 bg=#A1BCED</panel_attributes>
     <additional_attributes/>
@@ -78,7 +79,7 @@ m2=1</panel_attributes>
       <w>300</w>
       <h>340</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;-&gt;
 IterationLog
 m2=1
 m1=1..n</panel_attributes>
@@ -88,14 +89,15 @@ m1=1..n</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>120</y>
+      <y>100</y>
       <w>460</w>
-      <h>80</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
+Iterations
 m1=n
 m2=1</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
